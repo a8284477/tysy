@@ -1,0 +1,193 @@
+.header-section{
+	position:fixed;
+	width:100%;
+	background-color:#30B0BB;
+	z-index:9999;
+}
+.navList{
+	text-align:right;
+}
+.navList a{
+	color:#fff;
+	display:inline-block;
+	font-size:16px;
+	font-weight:600;
+	padding-bottom:3px;
+	margin:0px 10px;
+	border-bottom:2px solid #1ABC9C;
+}
+.navList a:hover,.navList a:active{
+	text-decoration: none;
+	border-bottom:2px solid #fff;
+	color:#fff;
+}
+.navList a:link,.navList a:visited{
+	text-decoration: none;
+	color:#fff!important;
+}
+.banner{
+	position:relative;
+	top:55px;
+}
+.bottom_nav{
+	border-bottom:2px solid #fff;
+}
+.box p{
+	text-indent: 2em;
+	line-height:1.5;
+	padding-bottom:2em;
+}
+.cont{
+	padding:40px 0px 20px 0;
+}
+.hr{
+	border-bottom:1px dashed #fff;
+}
+.tit span{
+	border-bottom:2px solid #555;
+}
+.tit2 span{
+	border-bottom:2px solid #fff;
+}
+.text-left{
+	text-align:left!important;
+}
+
+/*company*/
+.company{
+	color:#2C3E50;
+	background:#fff;
+}
+
+/*team*/
+#teamBottom{
+	fill: #29CB6D;
+    stroke: #29CB6D;
+}
+.team .box{
+	margin-bottom:40px;
+}
+.team .face,.team .face2 {
+	width:212px;
+	height:303px;
+	float:left;
+}
+.team .face2{
+	float:right;
+}
+.team .face img,.team .face2 img{
+	border-radius:5px;
+}
+.team .inner,.team .inner2{
+	width:800px;
+	height:260px;
+	float:left;
+	margin-left:20px;
+}
+.team .inner h4,.team .inner2 h4{
+	position:relative;
+	height:80px;
+	text-align:left;
+	color:#fff;
+}
+.team .inner h4 span,.team .inner2 h4 span{
+	position:absolute;
+	right:0px;
+	color:#fff;
+}
+.team .inner p,.team .inner2 p{
+	font-size:14px;
+	padding-bottom:20px;
+	color:#fff;
+}
+.team .txtLeft{
+	padding:10px;
+	color:#fff;
+}
+.team .txtLeft h4{
+	padding:0px;
+	text-align:left;
+}
+.team .txtLeft i{
+	text-indent: 100px;
+}
+.team .txtLeft p{
+	padding:10px 0px;
+}
+
+/*service*/
+#service{
+	padding:7em 0;
+}
+.service .cont{
+	width:100%;
+}
+.service .box{
+	border-radius:10px;
+}
+.service .box p{
+	padding:10px 0;
+	color:#2C3E50;
+}
+
+/*case*/
+#case{
+	padding:7em 0;
+	background:#30B0BB;
+}
+#caseBottom{
+	fill: #30B0BB;
+    stroke: #30B0BB;
+}
+.case .box h4{
+	color:#fff;
+}
+.case .box .cont{
+	padding:20px;
+}
+.case .box .cont ul{
+	width:540px;
+	float:left;
+}
+.case .box .cont li{
+	float:left;
+	list-style: none;
+}
+.case .box .cont .inner{
+	width:550px;
+	padding:20px;
+	float:right;
+	color:#fff;
+}
+.case .box p{
+	padding-bottom:20px;
+}
+.case .box .cont .inner2{
+	color:#fff;
+}
+
+
+/*跑马灯*/
+.str_wrap{
+			padding-left: 3em;
+			padding-right: 3em;
+			background: #fefefe;
+			height: 10em;
+			line-height: 2em;
+			font-size: 1.2em;
+		}
+		.str3 { font-size:0 !important}
+		.str3-2 { background:none !important;}
+.str3-2 span { border:5px solid #ccc; background:#f1f1f1; color:#999; margin:0 5px; text-align:center; font:40px/100px Arial, Helvetica, sans-serif; width:100px; height:100px; display:inline-block; vertical-align:top;}
+		.str4 .str_item {
+			font-size:0;
+			line-height:0
+		}
+		.str4 img { opacity:0.8}
+		.str4 img:hover { opacity:1}
+		.str4.str_wrap.str_active {
+			background:#fff;
+		}
+
+
+
